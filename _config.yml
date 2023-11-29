@@ -1,0 +1,46 @@
+# site settings
+title: Franco Milicchio
+subtitle: DICITA Dept. of Engineering, Roma Tre University
+email: franco.milicchio@uniroma3.it
+description: Homepage
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://fmilicchio.bitbucket.io" # the base hostname & protocol for your site
+author: Franco Milicchio
+street_address: Via della Vasca Navale, 79
+city: Rome
+state: RM
+zip_code: 00146
+country: Italy
+phone: +39 (06) 5733-3566
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 10
+
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+# socials:
+  # GitHub: https://github.com/andrewbanchich
+  # GitLab:
+  # Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
+  # Instagram:
+  # LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+  # Twitter: https://twitter.com/andrewbanchich
+  # Facebook:
+  # Slack:
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 
+- vendor/
+

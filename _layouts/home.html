@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    <!-- Banner -->
+    {% assign post = site.posts.first %}
+    <section id="banner" class="major">
+        <div class="inner">
+            <header class="major">
+                <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+            </header>
+            <div class="content">
+                <p style="text-transform: uppercase;">Posted on {{ post.date | date: "%B %-d, %Y" }}</p>
+                <ul class="actions">
+                    <li><a href="{{ post.url }}" class="button next scrolly">Read Post</a></li>
+                    <li><a href="/posts.html" class="button special scrolly">All posts</a></li>
+                    <!--<li><a href="/elements.html" class="button next scrolly">Elements</a></li>
+                    <li><a href="/landing.html" class="button next scrolly">Landing</a></li>-->
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- One -->
+        {% include tiles.html %}
+
+
+    </div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>

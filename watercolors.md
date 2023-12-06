@@ -26,7 +26,7 @@ https://github.com/fmilicchio/fmilicchio.github.io/releases/download/1.0/IMG_635
 WAS:
 href="{{site.baseurl}}/art/IMG_9810.jpg"><img src="../art/IMG_9810_thumb.jpg" 
 -->
-				<a href="{{site.baseurl}}/art/IMG_9810.jpg"><img src="../art/IMG_9810_thumb.jpg" alt="" /></a>
+				<a href="https://github.com/fmilicchio/fmilicchio.github.io/releases/download/1.0/IMG_9810.jpg"><img src="https://github.com/fmilicchio/fmilicchio.github.io/releases/download/1.0/IMG_9810_thumb.jpg" alt="" /></a>
 				<p>A happy mama Duck.</p>
 			</span>
 		</div>

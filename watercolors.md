@@ -13,7 +13,7 @@ nav-menu: true
 
 <p>Random stuff I found on the internet. All subjects belong to the respective artist, I just draw and paint them (watercolor, charcoal, hard pastels, soft pastels, mixed media). For watercolors: the painting is still wet.</p>
 
-<p>Tap or click on each image to see the whole pictures in full resolution.</p>
+<p>Tap or click on each image to download the picture in full resolution.</p>
 
 <div class="box alt">
 	<div class="row uniform">

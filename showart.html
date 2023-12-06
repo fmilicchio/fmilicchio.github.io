@@ -1,8 +1,7 @@
 <html>
 <body>
-        <img src="https://github.com/fmilicchio/fmilicchio.github.io/releases/download/1.0/IMG_9810.jpg" alt="" 
+        <img id="dynamicImage" src="" alt="" 
              style="display: block; margin: auto; width: 80%; height: auto;"/>
-        <p id="dynamicImage"></p>
             <script>
                 function getQueryParam(param) {
                     var urlParams = new URLSearchParams(window.location.search);
@@ -11,10 +10,10 @@
         
                 var imageUrl = getQueryParam('loadfrom');
                 if (imageUrl) {
-                    document.getElementById('dynamicImage').innerHTML = imageUrl;
+                    document.getElementById('dynamicImage').src = imageUrl;
                 } else {
                     // Handle the case where no URL is provided
-                    document.getElementById('dynamicImage').innerHTML = "No URL provided";
+                    console.log('No URL provided');
                 }
             </script>
 </body>

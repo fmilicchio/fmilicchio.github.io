@@ -20,6 +20,12 @@ nav-menu: true
 		<!-- ROW BEGIN -->
 		<div class="6u">
 			<span class="image fit">
+<!--
+NEW URL: 
+https://github.com/fmilicchio/fmilicchio.github.io/releases/download/1.0/IMG_6357.jpg 
+WAS:
+href="{{site.baseurl}}/art/IMG_9810.jpg"><img src="../art/IMG_9810_thumb.jpg" 
+-->
 				<a href="{{site.baseurl}}/art/IMG_9810.jpg"><img src="../art/IMG_9810_thumb.jpg" alt="" /></a>
 				<p>A happy mama Duck.</p>
 			</span>

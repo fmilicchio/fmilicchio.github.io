@@ -1,10 +1,10 @@
 # site settings
 title: Franco Milicchio
-subtitle: DICITA Dept. of Engineering, Roma Tre University
+subtitle: Roma Tre University
 email: franco.milicchio@uniroma3.it
 description: Homepage
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://fmilicchio.bitbucket.io" # the base hostname & protocol for your site
+url: "https://fmilicchio.github.io" # the base hostname & protocol for your site
 author: Franco Milicchio
 street_address: Via della Vasca Navale, 79
 city: Rome

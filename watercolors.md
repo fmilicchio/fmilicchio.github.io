@@ -13,24 +13,13 @@ nav-menu: true
 
 <section class="special">
 	<p>Random stuff I found on the internet. All subjects belong to the respective artist, I just draw and paint them (watercolor, charcoal, hard pastels, soft pastels, mixed media). For watercolors: the painting is still wet.</p>
-	<ul class="actions">
-		<li><a href="#" class="button special icon fa-behance" id="countdown">Redirect in 5</a></li>
+    <ul class="actions">
+		<li><a href="#" class="button special" id="countdown">Redirecting</a></li>
 	</ul>
 </section>
 
 <script>
-    var timeLeft = 5; // time in seconds for the countdown
-    var countdownElement = document.getElementById('countdown');
-
-    var timerId = setInterval(function() {
-        timeLeft--;
-        countdownElement.textContent = "Redirect in " + timeLeft;
-
-        if (timeLeft <= 0) {
-            clearInterval(timerId);
-            window.location.href = 'https://www.behance.net/jcxz100h';
-        }
-    }, 1000);
+    window.location.href = 'https://photos.app.goo.gl/w534KMBUev3hMAys5';
 </script>
 
 </div>

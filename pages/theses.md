@@ -25,7 +25,7 @@ show_tile: false
 
 <p>Just ask yourself: "What do I want to learn?". This is <strong> the right time</strong> to start learning something new, something that really interests you.</p>
 
-<p>Where are these topics applied in real life? Please visit the <a href="{{site.baseurl}}/pages/projects.html">research page</a>, and remember that fluid dynamics, elastoplasticity, and meshing are the bases for videogame engines, movie animations, and of course, scientific computing.</p>
+<p>Where are these topics applied in real life? Please visit the <a href="{{site.baseurl}}/projects.html">research page</a>, and remember that fluid dynamics, elastoplasticity, and meshing are the bases for videogame engines, movie animations, and of course, scientific computing.</p>
 
 <p>This is <strong>your thesis</strong>, do something you love: your proposals are more than welcome!</p>
 

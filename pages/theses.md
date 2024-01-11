@@ -27,6 +27,8 @@ show_tile: false
 
 <p>Where are these topics applied in real life? Please visit the <a href="{{site.baseurl}}/projects.html">research page</a>, and remember that fluid dynamics, elastoplasticity, and meshing are the bases for videogame engines, movie animations, and of course, scientific computing.</p>
 
+<p>Tools used for a thesis may include industry standards, for example the <strong>Unreal Engine</strong>, the <strong>Dear ImGui</strong> and <strong>libigl</strong> libraries, <strong>Vulkan</strong>, <strong>Blender</strong>, or the <strong>Oculus SDK</strong>.</p>
+
 <p>This is <strong>your thesis</strong>, do something you love: your proposals are more than welcome!</p>
 
 

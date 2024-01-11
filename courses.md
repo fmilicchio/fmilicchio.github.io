@@ -19,7 +19,7 @@ nav-menu: true
 				<header class="major">
 					<h3>Mobile Computing</h3>
 				</header>
-				<p>Mobile Computing is a <em>hands-on</em> class, where we will see together how to develop an app from scratch during the lessons with <strong>live coding</strong> sessions. We will cover everything we need in a workplace, from git and UI/UX to Flutter and MAUI, from backends with REST and storage to privacy and user engagement. We will have also dedicated sessions on videogames with Unity, gaming, and storytelling.</p>
+				<p>Mobile Computing is a <em>hands-on</em> class, where we will see together how to develop an app from scratch during the lessons with <strong>live coding</strong> sessions. We will cover everything we need in a workplace, from git and UI/UX to Flutter and MAUI, from backends with REST and storage to privacy and user engagement. We will have also dedicated sessions on videogames with Unreal and Unity, gaming, and storytelling.</p>
 				<ul class="actions">
 					<li><a href="{{site.baseurl}}/pages/mobile.html" class="button">Course Homepage</a></li>
 				</ul>
@@ -35,7 +35,7 @@ nav-menu: true
 				<header class="major">
 					<h3>Computer Graphics</h3>
 				</header>
-				<p>Computer Graphics is a base class that will introduce all basic aspects of the field, from both technical and artistic point of views, with a hint on both videogames and the movie industry. We will study the real GPU hardware architectures and modern APIs like OpenGL, Vulkan, and DirectX, and cover topics like meshes, curves and surfaces, rendering, lighting and shadows. From the artistic perspective we will see the principles of a good animation, colors and perception.</p>
+				<p>Computer Graphics is a base class that will introduce all basic aspects of the field, from both technical and artistic point of views, with a hint on both videogames and the movie industry. We will study the real GPU hardware architectures and modern APIs like OpenGL, Vulkan, and DirectX, along with the Unreal game engine. We will also cover topics like meshes, curves and surfaces, rendering, lighting and shadows. From the artistic perspective we will see the principles of a good animation, colors and perception.</p>
 				<ul class="actions">
 					<li><a href="{{site.baseurl}}/pages/graphics.html" class="button">Course Homepage</a></li>
 				</ul>

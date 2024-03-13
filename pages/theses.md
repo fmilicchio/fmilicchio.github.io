@@ -27,7 +27,7 @@ show_tile: false
 
 <p>In the following you can see past theses to give you an idea on what students can do. If you want some ideas, <a href="#example">read some ideas about tools and possibilities</a> in your theses. Note that they're just ideas: <strong>this is your thesis</strong>, do something you love: your proposals are more than welcome!</p>
 
-<p>Usually I employ industry-standard tools, for example the <strong>Unreal Engine</strong>,  <strong>Vulkan</strong>, <strong>Blender</strong>, or the <strong>Oculus SDK</strong> of course with a headset to use, you don't need one (<strong>limited in numbers</strong>).</p>
+<p>Usually I employ industry-standard tools, for example the <strong>Unreal Engine</strong>,  <strong>Vulkan</strong>, <strong>Blender</strong>, or the <strong>Oculus SDK</strong> of course with a headset to use, you don't need one (note that Oculus headsets are <strong>limited in numbers</strong>).</p>
 
 
 

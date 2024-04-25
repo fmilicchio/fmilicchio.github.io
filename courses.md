@@ -11,29 +11,30 @@ nav-menu: true
 
 <section id="courses" class="spotlights">
 	<section>
-		<a href="{{site.baseurl}}/pages/mobile.html" class="image">
-			<img src="{% link images/mc.jpg %}" alt="" data-position="center center" />
+		<a href="{{site.baseurl}}/pages/gamedev.html" class="image">
+			<img src="{% link images/gamedev.gif %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Mobile Computing (Bs)</h3>
+					<h3>Game Development</h3>
+					<h5>(former Mobile Computing)</h5>
 				</header>
-				<p>Mobile Computing is a class held since 2016, where we will see together how to develop a game or an app from scratch. We will have dedicated sessions on videogames with Unreal and Unity, gaming, and storytelling. We will cover everything we need in a workplace, from git and UI/UX to Flutter and MAUI, from backends with REST and storage to privacy and user engagement.</p>
+				<p>Game Development is a class where we will see the basics on game development using game engines. Specifically we will employ Unreal Engine, but we will also take a look at Unity, and Godot. We will cover what will be the foundation of a future career in the field, with a basic understanding of the artistic and narrative points of view.</p>
 				<ul class="actions">
-					<li><a href="{{site.baseurl}}/pages/mobile.html" class="button">Course Homepage</a></li>
+					<li><a href="{{site.baseurl}}/pages/gamedev.html" class="button">Course Homepage</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
 	<section>
 		<a href="{{site.baseurl}}/pages/graphics.html" class="image">
-			<img src="{% link images/cg.jpg %}" alt="" data-position="top center" />
+			<img src="{% link images/graphics.gif %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Computer Graphics (Ms)</h3>
+					<h3>Computer Graphics</h3>
 				</header>
 				<p>Computer Graphics is a class held since 2022 that will introduce all basic aspects of the field, from both technical and artistic point of views, with a hint on both videogames and the movie industry. We will study the real GPU hardware architectures and modern APIs like OpenGL, Vulkan, and DirectX, along with the Unreal game engine. We will also cover topics like meshes, curves and surfaces, rendering, lighting and shadows. From the artistic perspective we will see the principles of a good animation, colors and perception.</p>
 				<ul class="actions">

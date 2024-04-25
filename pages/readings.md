@@ -22,6 +22,7 @@ show_tile: false
 
 <p>The following is a list of books that students asked me to write in my courses. It comprises a series of books that I've found  useful or interesting, and so I recommend reading for your own personal and professional interest.</p>
 
+<section id="gamedev"><br/><br/></section>   
 
 <header class="major">
 	<h2>Game Development</h2>
@@ -40,6 +41,9 @@ show_tile: false
 	<li>Game Physics Engine Development, by Millington</li>
 	<li>The Art of Game Design, by Schell</li>
 </ul>
+
+<section id="graphics"><br/><br/></section>   
+
 
 <header class="major">
 	<h2>Computer Graphics</h2>

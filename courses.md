@@ -18,7 +18,7 @@ nav-menu: true
 			<div class="inner">
 				<header class="major">
 					<h3>Game Development</h3>
-					<h5>(former Mobile Computing)</h5>
+					<h5>(former Mobile Computing, since 2016)</h5>
 				</header>
 				<p>Game Development is a class where we will see the basics on game development using game engines. Specifically we will employ Unreal Engine, but we will also take a look at Unity, and Godot. We will cover what will be the foundation of a future career in the field, with a basic understanding of the artistic and narrative points of view.</p>
 				<ul class="actions">
@@ -35,6 +35,7 @@ nav-menu: true
 			<div class="inner">
 				<header class="major">
 					<h3>Computer Graphics</h3>
+					<h5>(since 2022)</h5>
 				</header>
 				<p>Computer Graphics is a class held since 2022 that will introduce all basic aspects of the field, from both technical and artistic point of views, with a hint on both videogames and the movie industry. We will study the real GPU hardware architectures and modern APIs like OpenGL, Vulkan, and DirectX, along with the Unreal game engine. We will also cover topics like meshes, curves and surfaces, rendering, lighting and shadows. From the artistic perspective we will see the principles of a good animation, colors and perception.</p>
 				<ul class="actions">

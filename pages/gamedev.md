@@ -17,7 +17,7 @@ show_tile: false
 
 <header class="major">
 	<h2>Game Development</h2>
-    <h5>(former Mobile Computing)</h5>
+    <h5>(former Mobile Computing, since 2016)</h5>
 </header>
 
 <div class="row">

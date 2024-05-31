@@ -9,7 +9,26 @@ nav-menu: true
 <!-- Main -->
 <div id="main">
 
+<!-- <p><span class="image left"><img src="{% link assets/images/ueacademic.png %}" alt="" /></span>The Computer Graphics course has been awarded in 2024 by Epic Games the Unreal Academic Partner award.</p><br/> -->
+
 <section id="courses" class="spotlights">
+	<section>
+		<a href="https://www.credential.net/37dfb319-9895-4645-9f92-742719cab9be" class="image">
+			<img src="{{site.baseurl}}/assets/images/ueacademic.png" alt="" data-position="center center" width="100"/>
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Unreal Academic Partner</h3>
+					<h5>(Computer Graphics, 2024)</h5>
+				</header>
+				<p>The Computer Graphics course is officially listed as an Unreal Academic Partner.</p>
+				<ul class="actions">
+					<li><a href="https://www.credential.net/37dfb319-9895-4645-9f92-742719cab9be" class="button">Credential</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
 	<section>
 		<a href="{{site.baseurl}}/pages/gamedev.html" class="image">
 			<img src="{% link images/gamedev.gif %}" alt="" data-position="center center" />
@@ -52,6 +71,7 @@ nav-menu: true
 			<div class="inner">
 				<header class="major">
 					<h3>Theses</h3>
+					<h5>(Bachelor's &amp; Master's)</h5>
 				</header>
 				<p>Just ask yourself: "What do I want to learn?". This is the right time to start learning something new, something that really interests you. Where are these topics applied in real life? Fluid dynamics, elastoplasticity, and meshing are the bases for videogame engines, movie animations, and of course, scientific computing. This is your thesis, do something you love: your proposals are more than welcome!</p>
 				<ul class="actions">

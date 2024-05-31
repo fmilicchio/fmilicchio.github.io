@@ -23,12 +23,18 @@ show_tile: false
 <div class="row">
 	<div class="6u 12u$(small)">
 		<h3>Schedule</h3>
-        <p>The class is held in the Fall semester. Please confirm the schedule with the <a href="https://ingegneriacivileinformaticatecnologieaeronautiche.uniroma3.it/en/didattica/lezioni-aule-e-orari/">official site</a>:</p>
+        <p>The class is held in the Fall semester. Please confirm the schedule with the <a href="https://ingegneriacivileinformaticatecnologieaeronautiche.uniroma3.it/en/didattica/lezioni-aule-e-orari/">official site</a>:
         <ul>
             <li>TBA</li>
         </ul>
+        </p>
 	</div>
-	<div class="6u$ 12u$(small)">
+	<div class="2u 12u$(small)">
+		<a href="https://www.credential.net/37dfb319-9895-4645-9f92-742719cab9be" class="image center">
+			<img src="{{site.baseurl}}/assets/images/uebadge.png" alt="" data-position="center center"  />
+		</a>
+	</div>
+	<div class="4u$ 12u$(small)">
         <a href="https://forms.office.com/r/pZ85AV2H5N" class="button big fit icon fa-wpforms">Survey</a>
         <a href="#submit" class="button big alt special fit icon fa-envelope">Exam</a>
 	</div>

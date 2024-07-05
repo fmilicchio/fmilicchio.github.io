@@ -22,8 +22,8 @@ nav-menu: true
      style="vertical-align: top">ORCID</a></li>
 	<!-- <a href="{{site.baseurl}}/assets/cv-business.pdf" class="button big fit icon fa-file-pdf-o">PDF</a></li> -->
     <li><a href="https://scholar.google.it/citations?hl=en&user=-ipyc7QAAAAJ&view_op=list_works&sortby=pubdate" class="button big fit icon fa-graduation-cap">Scholar</a></li>
-    <li><a href="https://bitbucket.org/fmilicchio/fmilicchio.bitbucket.org/downloads/ms-thesis.pdf" class="button big fit icon fa-download">MS Thesis</a></li>
-    <li><a href="https://bitbucket.org/fmilicchio/fmilicchio.bitbucket.org/downloads/phd-thesis.pdf" class="button big fit icon fa-download">PhD Thesis</a></li>
+    <li><a href="{% link assets/thesis-ms.pdf %}" class="button big fit icon fa-download">MS Thesis</a></li>
+    <li><a href="{% link assets/thesis-phd.pdf %}" class="button big fit icon fa-download">PhD Thesis</a></li>
 </ul>
 </section>
 

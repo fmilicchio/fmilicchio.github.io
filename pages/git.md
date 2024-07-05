@@ -40,7 +40,7 @@ show_tile: false
 	<h2>Creation</h2>
 </header>
 
-<p>Usually you will create a repository in a remote location, for instance Atlassian's <a href="https://bitbucket.org" target="_blank">BitBucket</a>. Why? For two factors:</p>
+<p>Usually you will create a repository in a remote location, for instance <a href="https://github.com" target="_blank">Microsof GitHub</a> or <a href="https://bitbucket.org" target="_blank">Atlassian BitBucket</a>. Why? For two factors:</p>
 
 <ul>
   <li>Collaboration</li>

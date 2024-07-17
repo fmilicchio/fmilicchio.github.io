@@ -15,7 +15,7 @@ nav-menu: true
 		<header class="major">
 			<h2>Genetic Sequences</h2>
 		</header>
-		<p>This is a compendium of the article and software library I wrote about parsing genomic sequences stored in a textual format. The results of this effort is the ISO C++ library <b>libseq</b>, freely available and open source.</p>
+		<p>This is a compendium of the article and software library I wrote about parsing genomic sequences stored in a textual format (ASCII). The results of this effort is the ISO C++ library <b>libseq</b>, freely available and open source.</p>
 		<p>Scientific publications are really coincise, and this page will guide you through the thought process I used to accelerate textual parsing with Intel's SIMD SSE instructions. I hope you get a better idea about SIMD instructions, and in this page I will use Intel's intrinsics, the C equivalent of assembly opcodes, as I think it is clearer, and because I've developed it using intrinsics and not assembly.</p>
 		<p>Enjoy.</p>
 		<section class="special">

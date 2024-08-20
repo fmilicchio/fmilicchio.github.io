@@ -25,7 +25,8 @@ show_tile: false
 		<h3>Schedule</h3>
         <p>The class is held in the Fall semester. Please confirm the schedule with the <a href="https://ingegneriacivileinformaticatecnologieaeronautiche.uniroma3.it/en/didattica/lezioni-aule-e-orari/">official site</a>:</p>
         <ul>
-            <li>TBA</li>
+            <li>Monday, 14-16, room N14</li>
+            <li>Tuesday, 09-12, room N14</li>
         </ul>
 	</div>
 	<div class="6u$ 12u$(small)">

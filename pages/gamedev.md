@@ -88,7 +88,7 @@ show_tile: false
 	<div class="6u 12u$(small)">
 		<h3>Exam Grading</h3>
         <p>Students will choose a group project (min 1, max 5 persons) and will present their results. If you need a suggestions, there will be specific lessons where we will discuss projects and ask for comments and help. Do not hesitate to contact me for any doubt. Record a <strong>live screencast making visible the game engine</strong> used for the project, and provide the URL of your git repository.</p>
-        <p><strong>Note for Mobile Computing students</strong>. You will develop an app or game, and record a <strong>live screencast on a real device</strong>, a smartphone or tablet, but <strong>no simulators are allowed</strong>.</p>
+        <p><strong>Note for Mobile Computing students</strong>. You will develop a <strong>multiplatform</strong> app or game (no iOS-only or Android-only), and record a <strong>live screencast on a real device</strong>, a smartphone or tablet, but <strong>no simulators are allowed</strong>.</p>
 	</div>
 	<div class="6u$ 12u$(small)">
         <h3>Deadlines</h3>

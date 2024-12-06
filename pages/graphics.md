@@ -100,7 +100,7 @@ show_tile: false
         <h3>Deadlines</h3>
         <p>In order to be graded, you should send, <strong>at least 7 days before the end of each exam session</strong>, regardless of the date on GOMP. So, translated, the exam form will be open:</p>
         <ol>
-            <li>Spring session: February 1&ndash;February 21;</li>
+            <li>Spring session: January 7&ndash;February 21;</li>
             <li>Summer session: June 1&ndash;July 23;</li>
             <li>Fall session: September 1&ndash;September 23.</li>
         </ol>

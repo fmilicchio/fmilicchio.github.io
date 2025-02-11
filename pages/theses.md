@@ -17,17 +17,15 @@ show_tile: false
 
 <section class="special">
 <ul class="actions fit">
-    <li><a href="#example" class="button fit">Theses Ideas</a></li>
     <li><a href="{{site.baseurl}}/pages/git.html" class="button fit special">Git Tutorial</a></li>
 	<li><a href="{{site.baseurl}}/pages/readings.html" class="button fit">Useful Books</a></li>
 </ul>
 </section>
 
-<p>Ask yourself: "<strong>What do I want to learn?</strong>".</p>
+<p>My theses focus on <strong>game development</strong> with industry-standard tools, mainly <strong>Unreal Engine</strong>, but also <strong>Vulkan</strong>, <strong>Blender</strong>, or the <strong>Oculus SDK</strong>  (note that I just have <strong> 3 Oculus headsets</strong>). Of course I am open to your requests, as long as it is possible and feasible. Ask yourself: <strong>What do I want to learn?</strong>.</p>
 
-<p>In the following you can see past theses to give you an idea on what students can do. If you want some ideas, <a href="#example">read some ideas about tools and possibilities</a> in your theses. Note that they're just ideas: <strong>this is your thesis</strong>, do something you love: your proposals are more than welcome!</p>
+<p>In the end? Do something you love!</p>
 
-<p>Usually I employ industry-standard tools, for example the <strong>Unreal Engine</strong>,  <strong>Vulkan</strong>, <strong>Blender</strong>, or the <strong>Oculus SDK</strong> of course with a headset to use, you don't need one (note that Oculus headsets are <strong>limited in numbers</strong>).</p>
 
 
 
@@ -59,6 +57,30 @@ show_tile: false
 		<a href="#" class="image fit"><img src="{{site.baseurl}}/images/remeshing.jpg" alt="" /></a>
 		<h3>Remeshing</h3>
 		<p>Create better behaving meshes.</p>
+	</div>
+</div>
+<div class="row">
+	<div class="6u 12u$(medium)">
+		<a href="#" class="image fit"><img src="{{site.baseurl}}/images/generators.jpg" alt="" /></a>
+		<h3>Generative AI</h3>
+		<p>As a painter it is intriguing to play with image generators. What can they do, and is that artistic value in these images? Let's see what these models can do.</p>
+	</div>
+	<div class="6u 12u$(medium)">
+		<a href="#" class="image fit"><img src="{{site.baseurl}}/images/unreal.jpg" alt="" /></a>
+		<h3>Physics Engines</h3>
+		<p>Elastic analyses and simulations are employed in movie renderers, videgames, and of course, engineering software. Although is seems simple, there are still cool problems to be tackled.</p>
+	</div>
+</div>
+<div class="row">
+	<div class="6u 12u$(medium)">
+		<a href="#" class="image fit"><img src="{{site.baseurl}}/images/vr.jpg" alt="" /></a>
+		<h3>Virtual Reality</h3>
+		<p>Virtual Reality, along with AR, MR, XR and so on, can be a good candidate for some interesting theses on both videogames and <em>professional</em> visualization. Yes, we have a Quest 3 for you.</p>
+	</div>
+	<div class="6u 12u$(medium)">
+		<a href="#" class="image fit"><img src="{{site.baseurl}}/images/render.jpg" alt="" /></a>
+		<h3>Rendering</h3>
+		<p>How fast can we render 2D images and animations? And how fast and realistically can we render 3D objects? We can find out with some libraries or game engines.</p>
 	</div>
 </div>
 <div class="row">
@@ -111,48 +133,6 @@ show_tile: false
 </div>
 
 
-<section id="example"><br/><br/></section>	
-
-<header class="major">
-	<h2>Some Example Theses Topics</h2>
-</header>
-
-<div class="row">
-	<div class="6u 12u$(medium)">
-		<a href="#" class="image fit"><img src="{{site.baseurl}}/images/vr.jpg" alt="" /></a>
-		<h3>Virtual Reality</h3>
-		<p>Virtual Reality, along with AR, MR, XR and so on, can be a good candidate for some interesting theses on both videogames and <em>professional</em> visualization. Yes, we have a Quest 3 for you.</p>
-	</div>
-	<div class="6u 12u$(medium)">
-		<a href="#" class="image fit"><img src="{{site.baseurl}}/images/render.jpg" alt="" /></a>
-		<h3>Rendering</h3>
-		<p>How fast can we render 2D images and animations? And how fast and realistically can we render 3D objects? We can find out with some libraries or game engines.</p>
-	</div>
-</div>
-<div class="row">
-	<div class="6u 12u$(medium)">
-		<a href="#" class="image fit"><img src="{{site.baseurl}}/images/meshgen.jpg" alt="" /></a>
-		<h3>Mesh Generation</h3>
-		<p>Generating a mesh that can be used in gaming, movies, or in scientific software is not easy. Lots of algorithms are out there, and may be improved.</p>
-	</div>
-	<div class="6u 12u$(medium)">
-		<a href="#" class="image fit"><img src="{{site.baseurl}}/images/animate.jpg" alt="" /></a>
-		<h3>Animations</h3>
-		<p>Animations are basically deformations of shapes. If we have an animation, we should be able to transport it from one mesh to another.</p>
-	</div>
-</div>
-<div class="row">
-	<div class="6u 12u$(medium)">
-		<a href="#" class="image fit"><img src="{{site.baseurl}}/images/generators.jpg" alt="" /></a>
-		<h3>Generative AI</h3>
-		<p>As a painter it is intriguing to play with image generators. What can they do, and is that artistic value in these images? Let's see what these models can do.</p>
-	</div>
-	<div class="6u 12u$(medium)">
-		<a href="#" class="image fit"><img src="{{site.baseurl}}/images/unreal.jpg" alt="" /></a>
-		<h3>Physics Engines</h3>
-		<p>Elastic analyses and simulations are employed in movie renderers, videgames, and of course, engineering software. Although is seems simple, there are still cool problems to be tackled.</p>
-	</div>
-</div>
 
 
 </div>

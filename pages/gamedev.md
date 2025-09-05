@@ -25,8 +25,8 @@ show_tile: false
 		<h3>Schedule</h3>
         <p>The class is held in the Fall semester. Please confirm the schedule with the <a href="https://ingegneriacivileinformaticatecnologieaeronautiche.uniroma3.it/en/didattica/lezioni-aule-e-orari/">official site</a>:</p>
         <ul>
-            <li>Monday, 14-16, room N14</li>
-            <li>Tuesday, 09-12, room N14</li>
+            <li>Monday, 13-16, room N13</li>
+            <li>Tuesday, 08-10, room N13</li>
         </ul>
 	</div>
 	<div class="6u$ 12u$(small)">
@@ -35,6 +35,20 @@ show_tile: false
         <a href="#guests" class="button big fit icon fa-gamepad">Guests</a>
 	</div>
 </div>
+
+<header class="major">
+    <h3>Attention: Changes to the Schedule</h3>
+</header>
+
+<p>The above indications are valid unless in the days indicated below, when <strong>there will be no lesson</strong>:</p>
+<ul>
+    <li>2025-09-23</li>
+    <li>2025-09-29</li>
+    <li>2025-09-30</li>
+    <li>2025-10-27</li>
+    <li>2025-10-28</li>
+    <li>2025-12-08</li>
+</ul>
 
 <header class="major">
     <h3>Topics</h3>

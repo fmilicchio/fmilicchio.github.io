@@ -42,6 +42,20 @@ show_tile: false
 </div>
 
 <header class="major">
+    <h3>Attention: Changes to the Schedule</h3>
+</header>
+
+<p>The above indications are valid unless in the days indicated below, when <strong>there will be no lesson</strong>:</p>
+<ul>
+    <li>2025-09-23</li>
+    <li>2025-09-29</li>
+    <li>2025-09-30</li>
+    <li>2025-10-27</li>
+    <li>2025-10-28</li>
+    <li>2025-12-08</li>
+</ul>
+
+<header class="major">
     <h3>Topics</h3>
 </header>
 

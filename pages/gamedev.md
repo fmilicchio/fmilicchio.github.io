@@ -137,7 +137,7 @@ show_tile: false
 	</div>
 	<div class="6u$ 12u$(small)">
         <h3>Deadlines</h3>
-        <p>In order to be graded, you should send, <strong>at least 7 days before the end of each exam session</strong>, regardless of the date on GOMP. So, translated, the exam form will be open:</p>
+        <p>Please <strong>enroll in the first possible date for the exam in GOMP</strong>, this simplifies a lot the verbalization process.</p>
         <ol>
             <li>Spring session: January 7&ndash;February 21;</li>
             <li>Summer session: June 1&ndash;July 23;</li>
@@ -147,6 +147,7 @@ show_tile: false
 	</div>
 </div>
 
+<header class="major"></header>
 
 <section class="special">
 <ul class="actions">

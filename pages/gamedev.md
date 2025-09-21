@@ -94,31 +94,12 @@ show_tile: false
 
 <section id="guests"><br/><br/></section>   
 
-<section class="content inner">
-    <header class="major">
-        <h2>Professional Guests</h2>
-    </header>
-    <div class="row">
-        <div class="4u 12u$(medium)">
-            <span class="image fit"><img src="{% link images/aurea.jpg %}" alt="" /></span>
-            <h2>Lorenzo Aurea</h2>
-            <h3>Ubisoft</h3>
-            <p>Technical Director at Ubisoft, he was Lead Online Architect for Rainbow Six: Siege. He worked on several MMOs.</p>
-        </div>
-        <div class="4u 12u$(medium)">
-            <span class="image fit"><img src="{% link images/bianchi.jpg %}" alt="" /></span>
-            <h2>Carlo Ivo Alimo Bianchi</h2>
-            <h3>Storm in a Teacup</h3>
-            <p>CEO and Game Director of Storm in a Teacup, he was Senior and Lead Artist at Ubisoft, Square Enix, Warner Bros Games, Crytek and others.</p>
-        </div>
-        <div class="4u$ 12u$(medium)">
-            <span class="image fit"><img src="{% link images/minenza.jpg %}" alt="" /></span>
-            <h2>Mirko Minenza</h2>
-            <h3>GameDev Stars</h3>
-            <p>Founder of GameDev Stars, a pro bono initiative aimed at helping students navigate the gaming job market. He was a professinal recruiter for the gaming industry.</p>
-        </div>
-    </div>
-</section>
+<header class="major">
+    <h2>Professional Guests</h2>
+</header>
+<h3>Let's hear directly from the industry</h3>
+
+{% include guests-2025-2026.html %}
 
 
 

@@ -34,35 +34,15 @@ nav-menu: true
 					<h3>Game Development</h3>
 					<h5>(former Mobile Computing, since 2016)</h5>
 				</header>
-				<p>Game Development is a class where we will see the basics on game development using game engines, specifically <strong>Unreal Engine</strong>, but we will also take a look at Unity, and Godot. Additionally we will have professional guests from the industry (see below).</p>
+				<p>Game Development is a class where we will see the basics on game development using <strong>Unreal Engine</strong>, but we will also take a look at Unity, and Godot.</p>
+				<p><strong>We will have guests from the gaming industry speaking at this course.</strong></p>
 				<ul class="actions">
 					<li><a href="{{site.baseurl}}/pages/gamedev.html" class="button">Course Homepage</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
-	<section id="guests" class="content inner">
-		<div class="row">
-			<div class="4u 12u$(medium)">
-				<span class="image fit"><img src="{% link images/aurea.jpg %}" alt="" /></span>
-				<h2>Lorenzo Aurea</h2>
-				<h3>Ubisoft</h3>
-				<p>Technical Director at Ubisoft, he was Lead Online Architect for Rainbow Six: Siege. He worked on several MMOs.</p>
-			</div>
-			<div class="4u 12u$(medium)">
-				<span class="image fit"><img src="{% link images/bianchi.jpg %}" alt="" /></span>
-				<h2>Carlo Ivo Alimo Bianchi</h2>
-				<h3>Storm in a Teacup</h3>
-				<p>CEO and Game Director of Storm in a Teacup, he was Senior and Lead Artist at Ubisoft, Square Enix, Warner Bros Games, Crytek and others.</p>
-			</div>
-			<div class="4u$ 12u$(medium)">
-				<span class="image fit"><img src="{% link images/minenza.jpg %}" alt="" /></span>
-				<h2>Mirko Minenza</h2>
-				<h3>GameDev Stars</h3>
-				<p>Founder of GameDev Stars, a pro bono initiative aimed at helping students navigate the gaming job market. He was a professinal recruiter for the gaming industry.</p>
-			</div>
-		</div>
-	</section>
+	{% include guests-2025-2026.html %}
 	<section id="graphics">
 		<a href="{{site.baseurl}}/pages/graphics.html" class="image">
 			<img src="{% link images/graphics.gif %}" alt="" data-position="top center" />

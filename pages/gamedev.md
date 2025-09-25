@@ -25,8 +25,8 @@ show_tile: false
 		<h3>Schedule</h3>
         <p>The class is held in the Fall semester. Please confirm the schedule with the <a href="https://ingegneriacivileinformaticatecnologieaeronautiche.uniroma3.it/en/didattica/lezioni-aule-e-orari/">official site</a>:</p>
         <ul>
-            <li>Monday, 13-16, room N13</li>
-            <li>Tuesday, 08-10, room N13</li>
+            <li>Monday, 13-16, <s>room N13</s> <strong>room N3</strong></li>
+            <li>Tuesday, 08-10, <s>room N13</s> <strong>room N3</strong></li>
         </ul>
 	</div>
 	<div class="6u$ 12u$(small)">

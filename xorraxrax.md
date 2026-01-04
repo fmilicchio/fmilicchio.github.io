@@ -1,6 +1,6 @@
 ---
 layout: landing
-title: Reverse Engineering
+title: Neurolab, and Reverse Engineering
 description: Reverse Engineering of an EEG viewer and file format
 image: assets/images/sre.jpg
 nav-menu: true
@@ -17,11 +17,6 @@ nav-menu: true
 		</header>
 		<p>This is a journal of how I reversed engineered a file format, and a viewer for Microsoft Windows. The end result is <b>the NeuroLab project</b>, along with an ISO C library <b>libvwr</b>, both freely available and open source.</p>
 		<p>Enjoy.</p>
-		<section class="special">
-			<ul class="actions fit">
-				<li><a href="https://neurolabapp.bitbucket.io" class="button special">Visit NeuroLab</a></li>
-			</ul>
-		</section>
 		<header>
 			<h3>Abstract</h3>
 		</header>
@@ -33,6 +28,70 @@ nav-menu: true
 		<blockquote><strong>Legal disclaimer.</strong> This project is intended as  reverse engineering with the sole purpose of system interoperability, and it is protected under the law (L. 633/41 Art. 64, 22 April 1941, n. 633; L. 518/92 Art. 5, 29 December 1992).</blockquote>
 	</div>
 </section>
+
+<section class="special">
+	<ul class="actions">
+		<li><a href="https://zenodo.org/record/6656947" class="button icon fa-download">Download</a></li>
+	</ul>
+</section>
+
+<!-- Future -->
+<section id="future" class="spotlights">
+	<section>
+		<a href="{% link assets/images/neurolab.png %}" class="image">
+			<img src="{% link assets/images/neurolab.png %}" alt="" data-position="top center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Neurolab Future</h3>
+				</header>
+				<p>NeuroLab will be a free EEG analysis software. It will open and convert between the high-performance EE5, EDF, and Micromed's VWR. NeuroLab will be free and open source.</p>
+				<ul class="actions ">
+					<li><a href="#" class="button">Coming Soon</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section>
+		<a href="{% link assets/images/libvwr.png %}" class="image">
+			<img src="{% link assets/images/libvwr.png %}" alt="" data-position="top center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>VWR Library</h3>
+				</header>
+				<p>Micromed's VWR is a proprietary binary file format for EEG recordings. It can store also other types of time-dependent data series (e.g., ECG).</p>
+				<p>The libvwr library is a documented and open source software library written in ISO C capable of handling Micromed's VWR, a binary proprietary file format for EEGs.</p>
+				<p>This library is the result of reverse engineering Micromed's binaries along with their SystemViewer98 executable for Microsoft Windows.</p>
+				<ul class="actions">
+					<li><a href="https://zenodo.org/record/6656947" class="button icon fa-download">Download</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section>
+		<a href="{% link assets/images/vwrdump.png %}" class="image">
+			<img src="{% link assets/images/vwrdump.png %}" alt="" data-position="top left" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>VWR Dump</h3>
+				</header>
+				<p>The libvwr library is shipped with an application, vwrdump. This is a terminal-based program that given a VWR file, dumps all its contents in textual form, ready to be analyzed by your preferred application (Matlab, Mathematica, even Excel).</p>
+			</div>
+		</div>
+	</section>
+</section>
+
+<section class="special">
+	<header>
+		<h1>&mdash; Let's begin the journey &mdash;</h1>
+	</header>
+</section>
+
 
 <!-- Story -->
 <section class="spotlights">
@@ -335,7 +394,7 @@ uint32_t size;
 		<p>It was fun, really.</p>
 		<section class="special">
 			<ul class="actions">
-				<li><a href="https://neurolabapp.bitbucket.io" class="button special">Visit NeuroLab</a></li>
+				<li><a href="https://zenodo.org/record/6656947" class="button icon fa-download">Download</a></li>
 			</ul>
 		</section>
 	</div>

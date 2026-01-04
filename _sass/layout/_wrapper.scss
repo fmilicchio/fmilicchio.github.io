@@ -1,3 +1,7 @@
+@use "../libs/functions";
+@use "../libs/inner";
+@use "../libs/skel";
+
 ///
 /// Forty by HTML5 UP
 /// html5up.net | @ajlkn
@@ -7,9 +11,9 @@
 /* Wrapper */
 
 	#wrapper {
-		@include vendor('transition', (
-			'filter #{_duration(menu)} ease',
-			'-webkit-filter #{_duration(menu)} ease',
+		@include skel.vendor('transition', (
+			'filter #{functions.duration(menu)} ease',
+			'-webkit-filter #{functions.duration(menu)} ease',
 			'opacity 0.375s ease-out'
 		));
 		padding-top: 3.25em;
@@ -19,10 +23,10 @@
 		}
 
 		> * {
-			@include inner;
+			@include inner.inner;
 		}
 
-		@include breakpoint(small) {
+		@include skel.breakpoint(small) {
 			padding-top: 2.75em;
 		}
 	}

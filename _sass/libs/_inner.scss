@@ -1,0 +1,13 @@
+@use "mixins";
+@use "skel";
+
+@mixin inner {
+  > .inner {
+    @include mixins.padding(4em, 0);
+    margin: 0 auto;
+
+    @include skel.breakpoint(small) {
+      @include mixins.padding(3em, 0);
+    }
+  }
+}

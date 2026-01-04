@@ -1,3 +1,6 @@
+@use "../libs/functions";
+@use "../libs/skel";
+
 ///
 /// Forty by HTML5 UP
 /// html5up.net | @ajlkn
@@ -19,7 +22,7 @@
 			width: -ms-max-content;
 			width: max-content;
       max-width: 100%;
-			margin-bottom: _size(element-margin);
+			margin-bottom: functions.size(element-margin);
 
 			> :first-child {
 				  margin-bottom: 0;
@@ -27,7 +30,7 @@
 
 				  &:after {
 					    content: '';
-					    background-color: _palette(fg-bold);
+					    background-color: functions.palette(fg-bold);
 					    display: block;
 					    height: 2px;
 					    margin: 0.325em 0 0.5em 0;
@@ -37,8 +40,8 @@
 
 			> p {
 				font-size: 0.7em;
-				font-weight: _font(weight-bold);
-				letter-spacing: _font(letter-spacing-alt);
+				font-weight: functions.font(weight-bold);
+				letter-spacing: functions.font(letter-spacing-alt);
 				margin-bottom: 0;
 				text-transform: uppercase;
 			}
@@ -58,7 +61,7 @@
 			}
 		}
 
-		@include breakpoint(small) {
+		@include skel.breakpoint(small) {
 			&.major {
 				> p {
 					br {

@@ -1,7 +1,6 @@
-@use "sass:color";
-@use "../libs/functions";
-@use "../libs/mixins";
-@use "../libs/skel";
+﻿@import "libs/functions";
+@import "libs/mixins";
+@import "libs/skel";
 
 ///
 /// Forty by HTML5 UP
@@ -19,9 +18,9 @@
 		}
 
 		> section {
-			@include skel.vendor('display', 'flex');
-			@include skel.vendor('flex-direction', 'row');
-			background-color: color.adjust(color.adjust(functions.palette(bg-alt), $lightness: 2), $saturation: -1);
+			@include vendor('display', 'flex');
+			@include vendor('flex-direction', 'row');
+			background-color: adjust-color(adjust-color(palette(bg-alt), $lightness: 2), $saturation: -1);
 
 			> .image {
 				background-position: center center;
@@ -38,7 +37,7 @@
 				}
 
 				&:before {
-					background: color.adjust(functions.palette(bg), $alpha: -0.1);
+					background: adjust-color(palette(bg), $alpha: -0.1);
 					content: '';
 					display: block;
 					height: 100%;
@@ -51,31 +50,31 @@
 			}
 
 			> .content {
-				@include skel.vendor('display', 'flex');
-				@include skel.vendor('flex-direction', 'column');
-				@include skel.vendor('justify-content', 'center');
-				@include skel.vendor('align-items', 'center');
-				@include mixins.padding(2em, 3em);
+				@include vendor('display', 'flex');
+				@include vendor('flex-direction', 'column');
+				@include vendor('justify-content', 'center');
+				@include vendor('align-items', 'center');
+				@include padding(2em, 3em);
 				width: 70%;
 
 				> .inner {
 					margin: 0 auto;
 					max-width: 100%;
-					width: functions.size(inner);
+					width: size(inner);
 				}
 			}
 
 			&:nth-child(2n) {
-				@include skel.vendor('flex-direction', 'row-reverse');
-				background-color: color.adjust(color.adjust(functions.palette(bg-alt), $lightness: 4), $saturation: -2);
+				@include vendor('flex-direction', 'row-reverse');
+				background-color: adjust-color(adjust-color(palette(bg-alt), $lightness: 4), $saturation: -2);
 
 				> .content {
-					@include skel.vendor('align-items', 'flex-end');
+					@include vendor('align-items', 'flex-end');
 				}
 			}
 		}
 
-		@include skel.breakpoint(xlarge) {
+		@include breakpoint(xlarge) {
 			> section {
 				> .image {
 					width: 40%;
@@ -87,7 +86,7 @@
 			}
 		}
 
-		@include skel.breakpoint(large) {
+		@include breakpoint(large) {
 			> section {
 				> .image {
 					width: 45%;
@@ -99,7 +98,7 @@
 			}
 		}
 
-		@include skel.breakpoint(medium) {
+		@include breakpoint(medium) {
 			> section {
 				display: block;
 
@@ -108,16 +107,16 @@
 				}
 
 				> .content {
-					@include mixins.padding(4em, 3em);
+					@include padding(4em, 3em);
 					width: 100%;
 				}
 			}
 		}
 
-		@include skel.breakpoint(small) {
+		@include breakpoint(small) {
 			> section {
 				> .content {
-					@include mixins.padding(3em, 1.5em);
+					@include padding(3em, 1.5em);
 				}
 			}
 		}

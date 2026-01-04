@@ -1,37 +1,36 @@
-@use "skel";
-@use "vars";
+﻿@import "vars";
 
-/// Gets a duration value.
-/// @param {string} $keys Key(s).
-/// @return {string} Value.
+/* Generic nested map getter (works for 1-level or nested maps). */
+@function _get($map, $keys...) {
+  @if length($keys) == 0 {
+    @return null; // prevents “map isn’t valid CSS value”
+  }
+
+  $v: $map;
+
+  @each $k in $keys {
+    $v: map-get($v, $k);
+  }
+
+  @return $v;
+}
+
 @function duration($keys...) {
-	@return skel.val(vars.$duration, $keys...);
+  @return _get($duration, $keys...);
 }
 
-/// Gets a font value.
-/// @param {string} $keys Key(s).
-/// @return {string} Value.
 @function font($keys...) {
-	@return skel.val(vars.$font, $keys...);
+  @return _get($font, $keys...);
 }
 
-/// Gets a misc value.
-/// @param {string} $keys Key(s).
-/// @return {string} Value.
 @function misc($keys...) {
-	@return skel.val(vars.$misc, $keys...);
+  @return _get($misc, $keys...);
 }
 
-/// Gets a palette value.
-/// @param {string} $keys Key(s).
-/// @return {string} Value.
 @function palette($keys...) {
-	@return skel.val(vars.$palette, $keys...);
+  @return _get($palette, $keys...);
 }
 
-/// Gets a size value.
-/// @param {string} $keys Key(s).
-/// @return {string} Value.
 @function size($keys...) {
-	@return skel.val(vars.$size, $keys...);
+  @return _get($size, $keys...);
 }

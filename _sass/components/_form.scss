@@ -1,6 +1,6 @@
-@use "../libs/functions";
-@use "../libs/mixins";
-@use "../libs/skel";
+﻿@import "libs/functions";
+@import "libs/mixins";
+@import "libs/skel";
 
 ///
 /// Forty by HTML5 UP
@@ -11,45 +11,45 @@
 /* Form */
 
 	form {
-		margin: 0 0 functions.size(element-margin) 0;
+		margin: 0 0 size(element-margin) 0;
 
 		.field {
-			margin: 0 0 (functions.size(element-margin) * 1) 0;
+			margin: 0 0 (size(element-margin) * 1) 0;
 
 			&.half {
 				width: 50%;
 				float: left;
-				padding: 0 0 0 (functions.size(element-margin) * 1 * 0.5);
+				padding: 0 0 0 (size(element-margin) * 1 * 0.5);
 
 				&.first {
-					padding: 0 (functions.size(element-margin) * 1 * 0.5) 0 0;
+					padding: 0 (size(element-margin) * 1 * 0.5) 0 0;
 				}
 			}
 		}
 
 		> .actions {
-			margin: (functions.size(element-margin) * 1.25) 0 0 0 !important;
+			margin: (size(element-margin) * 1.25) 0 0 0 !important;
 		}
 
-		@include skel.breakpoint(small) {
+		@include breakpoint(small) {
 			.field {
-				margin: 0 0 (functions.size(element-margin) * 0.75) 0;
+				margin: 0 0 (size(element-margin) * 0.75) 0;
 
 				&.half {
-					padding: 0 0 0 (functions.size(element-margin) * 0.75 * 0.5);
+					padding: 0 0 0 (size(element-margin) * 0.75 * 0.5);
 
 					&.first {
-						padding: 0 (functions.size(element-margin) * 0.75 * 0.5) 0 0;
+						padding: 0 (size(element-margin) * 0.75 * 0.5) 0 0;
 					}
 				}
 			}
 
 			> .actions {
-				margin: (functions.size(element-margin) * 1) 0 0 0 !important;
+				margin: (size(element-margin) * 1) 0 0 0 !important;
 			}
 		}
 
-		@include skel.breakpoint(xsmall) {
+		@include breakpoint(xsmall) {
 			.field {
 				&.half {
 					width: 100%;
@@ -65,12 +65,12 @@
 	}
 
 	label {
-		color: functions.palette(fg-bold);
+		color: palette(fg-bold);
 		display: block;
 		font-size: 0.8em;
-		font-weight: functions.font(weight-bold);
-		letter-spacing: functions.font(letter-spacing-alt);
-		margin: 0 0 (functions.size(element-margin) * 0.5) 0;
+		font-weight: font(weight-bold);
+		letter-spacing: font(letter-spacing-alt);
+		margin: 0 0 (size(element-margin) * 0.5) 0;
 		text-transform: uppercase;
 	}
 
@@ -80,8 +80,8 @@
 	input[type="tel"],
 	select,
 	textarea {
-		@include skel.vendor('appearance', 'none');
-		background: functions.palette(border-bg);
+		@include vendor('appearance', 'none');
+		background: palette(border-bg);
 		border: none;
 		border-radius: 0;
 		color: inherit;
@@ -96,28 +96,28 @@
 		}
 
 		&:focus {
-			border-color: functions.palette(highlight);
-			box-shadow: 0 0 0 2px functions.palette(highlight);
+			border-color: palette(highlight);
+			box-shadow: 0 0 0 2px palette(highlight);
 		}
 	}
 
 	.select-wrapper {
-		@include mixins.icon;
+		@include icon();
 		display: block;
 		position: relative;
 
 		&:before {
-			color: functions.palette(border);
+			color: palette(border);
 			content: '\f078';
 			display: block;
-			height: functions.size(element-height);
-			line-height: functions.size(element-height);
+			height: size(element-height);
+			line-height: size(element-height);
 			pointer-events: none;
 			position: absolute;
 			right: 0;
 			text-align: center;
 			top: 0;
-			width: functions.size(element-height);
+			width: size(element-height);
 		}
 
 		select::-ms-expand {
@@ -129,7 +129,7 @@
 	input[type="password"],
 	input[type="email"],
 	select {
-		height: functions.size(element-height);
+		height: size(element-height);
 	}
 
 	textarea {
@@ -138,7 +138,7 @@
 
 	input[type="checkbox"],
 	input[type="radio"], {
-		@include skel.vendor('appearance', 'none');
+		@include vendor('appearance', 'none');
 		display: block;
 		float: left;
 		margin-right: -2em;
@@ -147,42 +147,42 @@
 		z-index: -1;
 
 		& + label {
-			@include mixins.icon;
-			color: functions.palette(fg);
+			@include icon();
+			color: palette(fg);
 			cursor: pointer;
 			display: inline-block;
-			font-weight: functions.font(weight);
-			padding-left: (functions.size(element-height) * 0.6) + 1em;
+			font-weight: font(weight);
+			padding-left: (size(element-height) * 0.6) + 1em;
 			padding-right: 0.75em;
 			position: relative;
 
 			&:before {
-				background: functions.palette(border-bg);
+				background: palette(border-bg);
 				content: '';
 				display: inline-block;
-				height: (functions.size(element-height) * 0.6);
+				height: (size(element-height) * 0.6);
 				left: 0;
 				letter-spacing: 0;
-				line-height: (functions.size(element-height) * 0.575);
+				line-height: (size(element-height) * 0.575);
 				position: absolute;
 				text-align: center;
 				top: 0;
-				width: (functions.size(element-height) * 0.6);
+				width: (size(element-height) * 0.6);
 			}
 		}
 
 		&:checked + label {
 			&:before {
-				background: functions.palette(fg-bold);
-				border-color: functions.palette(highlight);
+				background: palette(fg-bold);
+				border-color: palette(highlight);
 				content: '\f00c';
-				color: functions.palette(bg);
+				color: palette(bg);
 			}
 		}
 
 		&:focus + label {
 			&:before {
-				box-shadow: 0 0 0 2px functions.palette(highlight);
+				box-shadow: 0 0 0 2px palette(highlight);
 			}
 		}
 	}
@@ -203,26 +203,26 @@
 	}
 
 	::-webkit-input-placeholder {
-		color: functions.palette(fg-light) !important;
+		color: palette(fg-light) !important;
 		opacity: 1.0;
 	}
 
 	:-moz-placeholder {
-		color: functions.palette(fg-light) !important;
+		color: palette(fg-light) !important;
 		opacity: 1.0;
 	}
 
 	::-moz-placeholder {
-		color: functions.palette(fg-light) !important;
+		color: palette(fg-light) !important;
 		opacity: 1.0;
 	}
 
 	:-ms-input-placeholder {
-		color: functions.palette(fg-light) !important;
+		color: palette(fg-light) !important;
 		opacity: 1.0;
 	}
 
 	.formerize-placeholder {
-		color: functions.palette(fg-light) !important;
+		color: palette(fg-light) !important;
 		opacity: 1.0;
 	}

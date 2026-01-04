@@ -1,6 +1,5 @@
-@use "sass:color";
-@use "../libs/functions";
-@use "../libs/skel";
+﻿@import "libs/functions";
+@import "libs/skel";
 
 ///
 /// Forty by HTML5 UP
@@ -11,30 +10,30 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: functions.palette(fg);
-		font-family: functions.font(family);
+		color: palette(fg);
+		font-family: font(family);
 		font-size: 17pt;
-		font-weight: functions.font(weight);
-		letter-spacing: functions.font(letter-spacing);
+		font-weight: font(weight);
+		letter-spacing: font(letter-spacing);
 		line-height: 1.65;
 
-		@include skel.breakpoint(xlarge) {
+		@include breakpoint(xlarge) {
 			font-size: 14pt;
 		}
 
-		@include skel.breakpoint(large) {
+		@include breakpoint(large) {
 			font-size: 12pt;
 		}
 
-		@include skel.breakpoint(xxsmall) {
+		@include breakpoint(xxsmall) {
 			font-size: 11pt;
 		}
 	}
 
 	a {
-		@include skel.vendor('transition', (
-			'color #{functions.duration(transition)} ease-in-out',
-			'border-bottom-color #{functions.duration(transition)} ease-in-out'
+		@include vendor('transition', (
+			'color #{duration(transition)} ease-in-out',
+			'border-bottom-color #{duration(transition)} ease-in-out'
 		));
 		border-bottom: dotted 1px;
 		color: inherit;
@@ -42,17 +41,17 @@
 
 		&:hover {
 			border-bottom-color: transparent;
-			color: functions.palette(highlight) !important;
+			color: palette(highlight) !important;
 		}
 
 		&:active {
-			color: color.adjust(color.adjust(functions.palette(highlight), $lightness: -15), $saturation: -5) !important;
+			color: adjust-color(adjust-color(palette(highlight), $lightness: -15), $saturation: -5) !important;
 		}
 	}
 
 	strong, b {
-		color: functions.palette(fg-bold);
-		font-weight: functions.font(weight-bold);
+		color: palette(fg-bold);
+		font-weight: font(weight-bold);
 	}
 
 	em, i {
@@ -60,7 +59,7 @@
 	}
 
 	p {
-		margin: 0 0 functions.size(element-margin) 0;
+		margin: 0 0 size(element-margin) 0;
 	}
 
 	blockquote > p {
@@ -68,10 +67,10 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: functions.palette(fg-bold);
-		font-weight: functions.font(weight-bold);
+		color: palette(fg-bold);
+		font-weight: font(weight-bold);
 		line-height: 1.65;
-		margin: 0 0 (functions.size(element-margin) * 0.5) 0;
+		margin: 0 0 (size(element-margin) * 0.5) 0;
 
 		a {
 			color: inherit;
@@ -103,7 +102,7 @@
 		font-size: 0.7em;
 	}
 
-	@include skel.breakpoint(small) {
+	@include breakpoint(small) {
 		h1 {
 			font-size: 2em;
 		}
@@ -130,15 +129,15 @@
 	}
 
 	blockquote {
-		border-left: solid 4px functions.palette(border);
+		border-left: solid 4px palette(border);
 		font-style: italic;
-		margin: 0 0 functions.size(element-margin) 0;
-		padding: (functions.size(element-margin) / 4) 0 (functions.size(element-margin) / 4) functions.size(element-margin);
+		margin: 0 0 size(element-margin) 0;
+		padding: (size(element-margin) / 4) 0 (size(element-margin) / 4) size(element-margin);
 	}
 
 	code {
-		background: functions.palette(border-bg);
-		font-family: functions.font(family-fixed);
+		background: palette(border-bg);
+		font-family: font(family-fixed);
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
@@ -146,9 +145,9 @@
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: functions.font(family-fixed);
+		font-family: font(family-fixed);
 		font-size: 0.9em;
-		margin: 0 0 functions.size(element-margin) 0;
+		margin: 0 0 size(element-margin) 0;
 
 		code {
 			display: block;
@@ -160,11 +159,11 @@
 
 	hr {
 		border: 0;
-		border-bottom: solid 1px functions.palette(border);
-		margin: functions.size(element-margin) 0;
+		border-bottom: solid 1px palette(border);
+		margin: size(element-margin) 0;
 
 		&.major {
-			margin: (functions.size(element-margin) * 1.5) 0;
+			margin: (size(element-margin) * 1.5) 0;
 		}
 	}
 

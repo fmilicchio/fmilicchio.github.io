@@ -1,43 +1,36 @@
 ---
 ---
-@use "sass:meta";
-@use '../../_sass/libs/vars';
-@use '../../_sass/libs/functions';
-@use '../../_sass/libs/mixins';
-@use '../../_sass/libs/skel';
-@use '../../_sass/libs/inner';
 
-@import 'font-awesome.min.css';
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic');
+@import "libs/vars";
+@import "libs/functions";
+@import "libs/mixins";
+@import "libs/skel";
+@import "libs/inner";
 
-/*
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+@import "font-awesome.min.css";
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
-	@include skel.skel-breakpoints((
-		xlarge: '(max-width: 1680px)',
-		large: '(max-width: 1280px)',
-		medium: '(max-width: 980px)',
-		small: '(max-width: 736px)',
-		xsmall: '(max-width: 480px)',
-		xxsmall: '(max-width: 360px)'
-	));
+/* Forty by HTML5 UP ... */
 
-	@include skel.skel-layout((
-		reset: 'full',
-		boxModel: 'border',
-		grid: ( gutters: 2em ),
-		breakpoints: (
-			large: (
-				grid: ( gutters: 1.5em )
-			),
-			small: (
-				grid: ( gutters: 1.25em )
-			)
-		)
-	));
+@include skel-breakpoints((
+  xlarge: "(max-width: 1680px)",
+  large: "(max-width: 1280px)",
+  medium: "(max-width: 980px)",
+  small: "(max-width: 736px)",
+  xsmall: "(max-width: 480px)",
+  xxsmall: "(max-width: 360px)"
+));
+
+@include skel-layout((
+  reset: "full",
+  boxModel: "border",
+  grid: ( gutters: 2em ),
+  breakpoints: (
+    large: ( grid: ( gutters: 1.5em ) ),
+    small: ( grid: ( gutters: 1.25em ) )
+  )
+));
+
 
 	// @mixin inner {
 	// 	> .inner {
@@ -55,29 +48,29 @@
 
 // Base.
 
-	@include meta.load-css('../../_sass/base/page');
-	@include meta.load-css('../../_sass/base/typography');
+	@import "base/page";
+	@import "base/typography";
 
 // Component.
 
-	@include meta.load-css('../../_sass/components/section');
-	@include meta.load-css('../../_sass/components/form');
-	@include meta.load-css('../../_sass/components/box');
-	@include meta.load-css('../../_sass/components/icon');
-	@include meta.load-css('../../_sass/components/image');
-	@include meta.load-css('../../_sass/components/list');
-	@include meta.load-css('../../_sass/components/table');
-	@include meta.load-css('../../_sass/components/button');
-	@include meta.load-css('../../_sass/components/tiles');
-	@include meta.load-css('../../_sass/components/contact-method');
-	@include meta.load-css('../../_sass/components/spotlights');
+	@import "components/section";
+	@import "components/form";
+	@import "components/box";
+	@import "components/icon";
+	@import "components/image";
+	@import "components/list";
+	@import "components/table";
+	@import "components/button";
+	@import "components/tiles";
+	@import "components/contact-method";
+	@import "components/spotlights";
 
 // Layout.
 
-	@include meta.load-css('../../_sass/layout/header');
-	@include meta.load-css('../../_sass/layout/banner');
-	@include meta.load-css('../../_sass/layout/main');
-	@include meta.load-css('../../_sass/layout/contact');
-	@include meta.load-css('../../_sass/layout/footer');
-	@include meta.load-css('../../_sass/layout/wrapper');
-	@include meta.load-css('../../_sass/layout/menu');
+	@import "layout/header";
+	@import "layout/banner";
+	@import "layout/main";
+	@import "layout/contact";
+	@import "layout/footer";
+	@import "layout/wrapper";
+	@import "layout/menu";

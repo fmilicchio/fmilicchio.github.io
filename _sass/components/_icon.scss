@@ -1,7 +1,6 @@
-@use "sass:color";
-@use "../libs/functions";
-@use "../libs/mixins";
-@use "../libs/skel";
+﻿@import "libs/functions";
+@import "libs/mixins";
+@import "libs/skel";
 
 ///
 /// Forty by HTML5 UP
@@ -12,7 +11,7 @@
 /* Icon */
 
 	.icon {
-		@include mixins.icon;
+		@include icon();
 		border-bottom: none;
 		position: relative;
 
@@ -22,9 +21,9 @@
 
 		&.alt {
 			&:before {
-				background-color: functions.palette(fg-bold);
+				background-color: palette(fg-bold);
 				border-radius: 100%;
-				color: functions.palette(bg);
+				color: palette(bg);
 				display: inline-block;
 				height: 2em;
 				line-height: 2em;
@@ -37,19 +36,20 @@
 	a.icon {
 		&.alt {
 			&:before {
-				@include skel.vendor('transition', 'background-color #{functions.duration(transition)} ease-in-out');
+				@include vendor('transition', 'background-color #{duration(transition)} ease-in-out');
 			}
 
 			&:hover {
 				&:before {
-					background-color: functions.palette(accent1);
+					background-color: palette(accent1);
 				}
 			}
 
 			&:active {
 				&:before {
-					background-color: color.adjust(color.adjust(functions.palette(accent1), $lightness: -15), $saturation: -5);
+					background-color: adjust-color(adjust-color(palette(accent1), $lightness: -15), $saturation: -5);
 				}
 			}
 		}
 	}
+	

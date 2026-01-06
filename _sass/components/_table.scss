@@ -1,5 +1,3 @@
-@use "../libs/functions";
-
 ///
 /// Forty by HTML5 UP
 /// html5up.net | @ajlkn
@@ -14,17 +12,17 @@
 	}
 
 	table {
-		margin: 0 0 functions.size(element-margin) 0;
+		margin: 0 0 _size(element-margin) 0;
 		width: 100%;
 
 		tbody {
 			tr {
-				border: solid 1px functions.palette(border);
+				border: solid 1px _palette(border);
 				border-left: 0;
 				border-right: 0;
 
 				&:nth-child(2n + 1) {
-					background-color: functions.palette(border-bg);
+					background-color: _palette(border-bg);
 				}
 			}
 		}
@@ -34,19 +32,19 @@
 		}
 
 		th {
-			color: functions.palette(fg-bold);
+			color: _palette(fg-bold);
 			font-size: 0.9em;
-			font-weight: functions.font(weight-bold);
+			font-weight: _font(weight-bold);
 			padding: 0 0.75em 0.75em 0.75em;
 			text-align: left;
 		}
 
 		thead {
-			border-bottom: solid 2px functions.palette(border);
+			border-bottom: solid 2px _palette(border);
 		}
 
 		tfoot {
-			border-top: solid 2px functions.palette(border);
+			border-top: solid 2px _palette(border);
 		}
 
 		&.alt {
@@ -55,7 +53,7 @@
 			tbody {
 				tr {
 					td {
-						border: solid 1px functions.palette(border);
+						border: solid 1px _palette(border);
 						border-left-width: 0;
 						border-top-width: 0;
 

@@ -28,11 +28,12 @@ show_tile: false
             <li>Monday, 18-20, room N13</li>
             <li>Tuesday, 10-13, room N08</li>
         </ul>
+        This course is <strong>an official Unreal Engine Partner course</strong>, you can see its credentials here: <a href="https://credential.unrealengine.com/4799926e-227d-4ca4-8e7e-eae97f7abd0c#acc.o4YD9AFK" class="image center">UE Academic Partner Credentials</a>.
         </p>
 	</div>
 	<div class="2u 12u$(small)">
-		<a href="https://www.credential.net/37dfb319-9895-4645-9f92-742719cab9be" class="image center">
-			<img src="{{site.baseurl}}/assets/images/uebadge.png" alt="" data-position="center center"  />
+		<a href="https://credential.unrealengine.com/4799926e-227d-4ca4-8e7e-eae97f7abd0c#acc.o4YD9AFK" class="image center">
+			<img src="{{site.baseurl}}/assets/images/ueacademic.png" alt="" data-position="center center"  />
 		</a>
 	</div>
 	<div class="4u$ 12u$(small)">
@@ -114,7 +115,7 @@ show_tile: false
         <h3>Deadlines</h3>
         <p>Please <strong>enroll in the first possible date for the exam in GOMP</strong>, this simplifies a lot the verbalization process.</p>
         <ol>
-            <li>Spring session: January 7&ndash;February 21;</li>
+            <li>Winter session: January 7&ndash;February 21;</li>
             <li>Summer session: June 1&ndash;July 23;</li>
             <li>Fall session: September 1&ndash;September 23.</li>
         </ol>

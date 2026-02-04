@@ -120,7 +120,7 @@ show_tile: false
         <h3>Deadlines</h3>
         <p>Please <strong>enroll in the first possible date for the exam in GOMP</strong>, this simplifies a lot the verbalization process.</p>
         <ol>
-            <li>Spring session: January 7&ndash;February 21;</li>
+            <li>Winter session: January 7&ndash;February 21;</li>
             <li>Summer session: June 1&ndash;July 23;</li>
             <li>Fall session: September 1&ndash;September 23.</li>
         </ol>

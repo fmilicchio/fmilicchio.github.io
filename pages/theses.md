@@ -32,108 +32,19 @@ show_tile: false
 <section id="past"><br/><br/></section>	
 
 <header class="major">
-	<h2>Past Theses</h2>
+	<h2>Past Theses Playlist</h2>
 </header>
 
-<div class="row">
-	<div class="6u 12u$(medium)">
-		<a href="https://youtu.be/QV93VctN4iU" class="image fit"><img src="{{site.baseurl}}/images/grass.jpg" alt="" /></a>
-		<h3>Grass Rendering</h3>
-		<p>Procedural grass rendering shaders in UE5.</p>
-	</div>
-	<div class="6u 12u$(medium)">
-		<a href="https://youtu.be/lh7Cj9Gufyg" class="image fit"><img src="{{site.baseurl}}/images/fracture.jpg" alt="" /></a>
-		<h3>Fracture Mechanics</h3>
-		<p>Dynamic mesh fracturing in Unreal Engine 5.</p>
-	</div>
-</div>
-<div class="row">
-	<div class="6u 12u$(medium)">
-		<a href="https://youtu.be/pv6EaPwbofE" class="image fit"><img src="{{site.baseurl}}/images/reinforced.jpg" alt="" /></a>
-		<h3>Videogame AI</h3>
-		<p>Reinforcement learning in videogames.</p>
-	</div>
-	<div class="6u 12u$(medium)">
-		<a href="#" class="image fit"><img src="{{site.baseurl}}/images/remeshing.jpg" alt="" /></a>
-		<h3>Remeshing</h3>
-		<p>Create better behaving meshes.</p>
-	</div>
-</div>
-<div class="row">
-	<div class="6u 12u$(medium)">
-		<a href="#" class="image fit"><img src="{{site.baseurl}}/images/generators.jpg" alt="" /></a>
-		<h3>Generative AI</h3>
-		<p>As a painter it is intriguing to play with image generators. What can they do, and is that artistic value in these images? Let's see what these models can do.</p>
-	</div>
-	<div class="6u 12u$(medium)">
-		<a href="#" class="image fit"><img src="{{site.baseurl}}/images/unreal.jpg" alt="" /></a>
-		<h3>Physics Engines</h3>
-		<p>Elastic analyses and simulations are employed in movie renderers, videgames, and of course, engineering software. Although is seems simple, there are still cool problems to be tackled.</p>
-	</div>
-</div>
-<div class="row">
-	<div class="6u 12u$(medium)">
-		<a href="#" class="image fit"><img src="{{site.baseurl}}/images/vr.jpg" alt="" /></a>
-		<h3>Virtual Reality</h3>
-		<p>Virtual Reality, along with AR, MR, XR and so on, can be a good candidate for some interesting theses on both videogames and <em>professional</em> visualization. Yes, we have a Quest 3 for you.</p>
-	</div>
-	<div class="6u 12u$(medium)">
-		<a href="#" class="image fit"><img src="{{site.baseurl}}/images/render.jpg" alt="" /></a>
-		<h3>Rendering</h3>
-		<p>How fast can we render 2D images and animations? And how fast and realistically can we render 3D objects? We can find out with some libraries or game engines.</p>
-	</div>
-</div>
-<div class="row">
-	<div class="6u 12u$(medium)">
-		<a href="https://youtu.be/grOxbupXbWs" class="image fit"><img src="{{site.baseurl}}/images/deck.jpg" alt="" /></a>
-		<h3>Bridge Animation</h3>
-		<p>Non linear aeroelastic "<a href="https://www.youtube.com/watch?v=j-zczJXSxnw">Tacoma Narrows</a>" bridge.</p>
-	</div>
-	<div class="6u 12u$(medium)">
-		<a href="https://www.youtube.com/watch?v=E9_Sa3MGnZs&list=PL5zUiVQDL9oRxyEt-yJLm7iykIIYcq8aS&index=8" class="image fit"><img src="{{site.baseurl}}/images/tpsspline.jpg" alt="" /></a>
-		<h3>Thin-Plate Spline</h3>
-		<p>Interpolating meshes to produce a smooth animation.</p>
-	</div>
-</div>
-<div class="row">
-	<div class="6u 12u$(medium)">
-		<a href="#" class="image fit"><img src="{{site.baseurl}}/images/laser.jpg" alt="" /></a>
-		<h3>Laser Beams</h3>
-		<p>Particles moving in a fluid.</p>
-	</div>
-	<div class="6u 12u$(medium)">
-		<a href="https://youtu.be/80b3z1tZrGg" class="image fit"><img src="{{site.baseurl}}/images/curvature-movie.jpg" alt="" /></a>
-		<h3>Geometric Animation</h3>
-		<p>Animating meshes via geometric properties.</p>
-	</div>
-</div>
-<div class="row">
-	<div class="6u 12u$(medium)">
-		<a href="https://youtu.be/fRFlH3DdUmw" class="image fit"><img src="{{site.baseurl}}/images/morphing.jpg" alt="" /></a>
-		<h3>Ventricle Animation</h3>
-		<p>Non linear elastic heart animation with Finite Elements.</p>
-	</div>
-	<div class="6u 12u$(medium)">
-		<a href="https://youtu.be/xHi9S5hnAU8" class="image fit"><img src="{{site.baseurl}}/images/power.jpg" alt="" /></a>
-		<h3>Dissipation &amp; Data Structures</h3>
-		<p>Cache-oblivious data structures on power dissipation.</p>
-	</div>
-</div>
-<div class="row">
-	<div class="6u 12u$(medium)">
-		<a href="https://youtu.be/dSc0F9wfTpM" class="image fit"><img src="{{site.baseurl}}/images/wolf.jpg" alt="" /></a>
-		<h3>Morphing Meshes</h3>
-		<p>Animation poses using reference meshes.</p>
-	</div>
-	<div class="6u 12u$(medium)">
-		<a href="https://youtu.be/WZTUn5dIjFo" class="image fit"><img src="{{site.baseurl}}/images/physics.jpg" alt="" /></a>
-		<h3>Particles</h3>
-		<p>Particle animation with custom fluid engine.</p>
-	</div>
-</div>
+<iframe style="width:70%; aspect-ratio:16/9; height:auto; margin: 0 auto; display:block;"
+ src="https://www.youtube-nocookie.com/embed/videoseries?si=9H08XrnXFrq-1ASL&amp;list=PL5zUiVQDL9oRxyEt-yJLm7iykIIYcq8aS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+<p></p>
 
-
+<section class="special">
+<ul class="actions fit">
+    <li><a href="https://www.youtube-nocookie.com/embed/videoseries?si=9H08XrnXFrq-1ASL&amp;list=PL5zUiVQDL9oRxyEt-yJLm7iykIIYcq8aS" class="button  special icon fa-video-camera" target="_blank">See Videos</a></li>
+</ul>
+</section>
 
 </div>
 </section>

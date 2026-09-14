@@ -34,15 +34,15 @@ nav-menu: true
 					<h3>Game Development</h3>
 					<h5>(former Mobile Computing, since 2016)</h5>
 				</header>
-				<p>Game Development is a class where we will see the basics on game development using <strong>Unreal Engine</strong>, but we will also take a look at Unity, and Godot.</p>
-				<p><strong>We will have guests from the gaming industry speaking at this course.</strong></p>
+				<p>Game Development is a class where we will see the basics on game development using <strong>Unreal Engine</strong>, but we will also take a look at Unity, and Godot. We'll study, beyond game engines, game design, narrative, UI, player engagement and privacy, programming techniques and optimizations, networking and AI, physics and modern GPUs.</p>
+				<p><strong>We will have guests from the gaming industry speaking at this course, see below.</strong></p>
 				<ul class="actions">
 					<li><a href="{{site.baseurl}}/pages/gamedev.html" class="button">Course Homepage</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
-	{% include guests-2025-2026.html %}
+	{% include guests-2026-2027.html %}
 	<section id="graphics">
 		<a href="{{site.baseurl}}/pages/graphics.html" class="image">
 			<img src="{% link images/graphics.gif %}" alt="" data-position="top center" />

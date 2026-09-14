@@ -23,13 +23,12 @@ show_tile: false
 <div class="row">
 	<div class="6u 12u$(small)">
 		<h3>Schedule</h3>
-        <p>The class is held in the Fall semester. Please confirm the schedule with the <a href="https://ingegneriacivileinformaticatecnologieaeronautiche.uniroma3.it/en/didattica/lezioni-aule-e-orari/">official site</a>:
+        <p>The class is held in the Fall semester. Please confirm the schedule with the <a href="https://easystaff.uniroma3.it/agendaweb/index.php?view=easycourse&_lang=it">official site</a>:</p>
         <ul>
-            <li>Monday, 18-20, room N13</li>
-            <li>Tuesday, 10-13, room N08</li>
+            <li>Monday, 16-18, <strong>room DS3B</strong></li>
+            <li>Tuesday, 08-10, <strong>room N08</strong></li>
         </ul>
-        This course is <strong>an official Unreal Engine Partner course</strong>, you can see its credentials here: <a href="https://credential.unrealengine.com/4799926e-227d-4ca4-8e7e-eae97f7abd0c#acc.o4YD9AFK" class="image center">UE Academic Partner Credentials</a>.
-        </p>
+        <p>This course is <strong>an official Unreal Engine Partner course</strong>, you can see its credentials here: <a href="https://credential.unrealengine.com/4799926e-227d-4ca4-8e7e-eae97f7abd0c#acc.o4YD9AFK">UE Academic Partner Credentials</a>.</p>
 	</div>
 	<div class="2u 12u$(small)">
 		<a href="https://credential.unrealengine.com/4799926e-227d-4ca4-8e7e-eae97f7abd0c#acc.o4YD9AFK" class="image center">
@@ -41,20 +40,10 @@ show_tile: false
         <a href="#submit" class="button big alt special fit icon fa-envelope">Exam</a>
 	</div>
 </div>
+<div style="clear: both;"></div>
 
-<header class="major">
-    <h3>Attention: Changes to the Schedule</h3>
-</header>
+{% include modification-2026-2027.html %}
 
-<p>The above indications are valid unless in the days indicated below, when <strong>there will be no lesson</strong>:</p>
-<ul>
-    <li>2025-09-23</li>
-    <li>2025-09-29</li>
-    <li>2025-09-30</li>
-    <li>2025-10-27</li>
-    <li>2025-10-28</li>
-    <li>2025-12-08</li>
-</ul>
 
 <header class="major">
     <h3>Topics</h3>
@@ -65,6 +54,8 @@ show_tile: false
 <p>Lessons will employ industry standard software, specifically, we will use Unreal Engine and Blender in our sessions.</p>
 
 <p>No textbook is required, but if you want to buy one, "Fundamentals of Computer Graphics" by Marschner and Shirley is a very comprehensive book that covers all the basic aspects of computer graphics.</p>
+
+
 
 <section class="special">
 <ul class="actions">

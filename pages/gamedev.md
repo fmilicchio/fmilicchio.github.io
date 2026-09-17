@@ -104,18 +104,11 @@ show_tile: false
 <div class="row">
 	<div class="6u 12u$(small)">
 		<h3>Exam Grading</h3>
-        <p>Students will choose a group project (min 1, max 5 persons) and will present their results. Do not hesitate to contact me for any doubt. <strong>What you'll need</strong>. Record a <strong>live screencast making visible the game engine</strong> used for the project, and provide the URL of your git repository. More on that when submittinig your project</p>
+        <p>Students will choose a group project (min 1, max 5 persons) and will present their results. If you need a suggestions, we will discuss projects and ask for comments and help during the lessons. Do not hesitate to contact me for any other doubt. What will be required: record a <strong>live screencast making visible both your product and the game engine project</strong> used for the project (show the project highlighting the details you deem important), provide the URL of your git repository, a description, student's university's IDs and names.</p>
         <p><strong>Note for old Mobile Computing students <u>only</u></strong>. You will need to develop a <strong>multiplatform</strong> app (no iOS-only or Android-only), and record a <strong>live screencast on a real device</strong>, a smartphone or tablet, but <strong>no simulators are allowed</strong>.</p>
 	</div>
 	<div class="6u$ 12u$(small)">
-        <h3>Deadlines</h3>
-        <p>Please <strong>enroll in the first possible date for the exam in GOMP</strong>, this simplifies a lot the verbalization process.</p>
-        <ol>
-            <li>Winter session: January 7&ndash;February 21;</li>
-            <li>Summer session: June 1&ndash;July 23;</li>
-            <li>Fall session: September 1&ndash;September 23.</li>
-        </ol>
-        <p>The deadline is here so that, if I encounter an error with GOMP, I will have time to ask for support.</p>
+{%include exam-dates.html %}
 	</div>
 </div>
 

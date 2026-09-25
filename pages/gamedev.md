@@ -26,7 +26,7 @@ show_tile: false
         <p>The class is held in the Fall semester. Please confirm the schedule with the <a href="https://easystaff.uniroma3.it/agendaweb/index.php?view=easycourse&_lang=it">official site</a>:</p>
         <ul>
             <li>Monday, 14-16, <strong>room N11</strong></li>
-            <li>Tuesday, 12-14, <strong>room N11</strong></li>
+            <li>Tuesday, 12-14, <strong>room DS1</strong> <del>room N11</del></li>
         </ul>
 	</div>
 	<div class="6u$ 12u$(small)">
@@ -104,7 +104,7 @@ show_tile: false
 <div class="row">
 	<div class="6u 12u$(small)">
 		<h3>Exam Grading</h3>
-        <p>Students will choose a group project (min 1, max 5 persons) and will present their results. If you need a suggestions, we will discuss projects and ask for comments and help during the lessons. Do not hesitate to contact me for any other doubt. What will be required: record a <strong>live screencast making visible both your product and the game engine project</strong> used for the project (show the project highlighting the details you deem important), provide the URL of your git repository, a description, student's university's IDs and names.</p>
+        <p>Students will choose a group project (min 1, max 5 persons) and will present their results. <strong>One submission per project</strong>, not one per student. If you need a suggestions, we will discuss projects and ask for comments and help during the lessons. Do not hesitate to contact me for any other doubt. What will be required: record a <strong>live screencast making visible both your product and the game engine project</strong> used for the project (show the project highlighting the details you deem important), provide the URL of your git repository, a description, student's university's IDs and names.</p>
         <p><strong>Note for old Mobile Computing students <u>only</u></strong>. You will need to develop a <strong>multiplatform</strong> app (no iOS-only or Android-only), and record a <strong>live screencast on a real device</strong>, a smartphone or tablet, but <strong>no simulators are allowed</strong>.</p>
 	</div>
 	<div class="6u$ 12u$(small)">
@@ -116,7 +116,7 @@ show_tile: false
 
 <section class="special">
 <ul class="actions">
-    <li><a href="https://forms.office.com/r/0mwcc4r0cr" class="button big special fit icon fa-envelope">Submit Project</a></li>
+    <li><a href="https://forms.cloud.microsoft/e/TASR23ah8q" class="button big special fit icon fa-envelope">Submit Project</a></li>
 </ul>
 </section>
 

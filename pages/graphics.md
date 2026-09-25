@@ -100,7 +100,7 @@ show_tile: false
 <div class="row">
 	<div class="6u 12u$(small)">
 		<h3>Exam Grading</h3>
-        <p>Students will choose a group project (min 1, max 5 persons) and will present their results. If you need a suggestions, we will discuss projects and ask for comments and help during the lessons. Do not hesitate to contact me for any other doubt. What will be required: record a <strong>live screencast making visible both your product and the game engine or rendering software</strong> used for the project (show the project highlighting the details you deem important), provide the URL of your git repository, a description, student's university's IDs and names.</p>
+        <p>Students will choose a group project (min 1, max 5 persons) and will present their results. <strong>One submission per project</strong>, not one per student. If you need a suggestions, we will discuss projects and ask for comments and help during the lessons. Do not hesitate to contact me for any other doubt. What will be required: record a <strong>live screencast making visible both your product and the game engine or rendering software</strong> used for the project (show the project highlighting the details you deem important), provide the URL of your git repository, a description, student's university's IDs and names.</p>
 	</div>
 	<div class="6u$ 12u$(small)">
 {%include exam-dates.html %}
@@ -111,7 +111,7 @@ show_tile: false
 
 <section class="special">
 <ul class="actions">
-    <li><a href="https://forms.office.com/r/eL9B24Dn9n" class="button big special fit icon fa-envelope">Submit Project</a></li>
+    <li><a href="https://forms.cloud.microsoft/e/W1x7iTSBTU" class="button big special fit icon fa-envelope">Submit Project</a></li>
 </ul>
 </section>
 
